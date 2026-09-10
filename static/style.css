@@ -892,6 +892,23 @@ animation-delay: 0.2s;
     height:85% !important;
 }
 
+.footer-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 20px;
+    margin-top: 40px;
+}
+
+.footer-box p{
+    color: white;
+    font-size:15px;
+    font-weight:lighter;
+    margin: 8px 0;
+}
+
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 1024px) {
